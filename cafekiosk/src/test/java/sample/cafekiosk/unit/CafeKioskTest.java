@@ -8,7 +8,7 @@ import sample.cafekiosk.unit.beverage.Americano;
 class CafeKioskTest {
 
     @Test
-    void add() {
+    void add_manual_test() {
         CafeKiosk cafeKiosk = new CafeKiosk();
         cafeKiosk.add(new Americano());
 
